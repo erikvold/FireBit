@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+    <head>
+        <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+        <title>TorrentPlus</title>
+    </head>
+    <body>
+        <h1 id='loader'>Loading...<div id='joke'>&nbsp;&nbsp;^&nbsp;Your special so keep waiting...</div></h1>
+        <div class='editor' style='display:none;'>
+            <div id='modal' style='display:none;'></div>
+            <div id='container' style='display:none;'>
+                <div class='border'>
+                    <a href='#' id='copy'>Copy all to clipboard</a>
+                </div>
+                <div id='peers'></div>
+            </div>
+            <div class='box'>
+                <h1>TorrentPlus</h1>
+                <form id='torrent'>
+                    <div>
+                        <h2>Torrent</h2>
+                        <div class='row'><div class='label'>Filename:</div><div class='content'><input class='text' id='file_name' type='text'/></div></div>
+                        <div class='row'><div class='label'>Info Hash:</div><div class='content' id='info_hash'></div></div>
+                    </div>
+                    <div id='tracker_data'></div>
+                        <h2>Trackers</h2>
+                        <div class='row'><div class='label'>URL:</div><div class='content' id='trackers'></div></div>
+                        <div class='row'><div class='content' id='new_content'><div class='tracker_row'>
+                            <input class='url' id='new_tracker' type='text'/>
+                            <img id='add_tracker' style='cursor:pointer;'/>
+                        </div></div></div>
+                    <div id='meta_data'>
+                        <h2>Meta Data</h2>
+                    </div>
+                    <div id='file_data'></div>
+                    <div>
+                        <h2>Finish</h2>
+                        <div class='row' id='footer'>
+                            <input class='c1' id='download' type='button' value='Download' style='width: 75px;'/> - Download the modified torrent.
+                        </div>
+                    </div>
+                </form>
+                <div class='row c2' style='padding-top:10px;color:#949494;'>*: Editing these fields will change the torrent's info hash.</div>
+            </div>
+        </div>
+        <div class='creator' style='display:none;'>
+            <div class='box'>
+                <h1>TorrentPlus</h1>
+            </div>
+        </div>
+    </body>
+</html>

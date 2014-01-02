@@ -1,0 +1,231 @@
+.editor .scrape {
+    margin-left: 2px;
+    font-size: 8pt;
+}
+.editor td {
+    text-align: left;
+}
+.editor input.text, textarea {
+    padding: 2px;
+    width: 500px;
+    border: 1px solid #006600;
+}
+.editor input.text.small {
+    padding: 2px;
+    width: 100px;
+    border: 1px solid #006600;
+}
+.editor input.file {
+    border: 1px solid #888;
+}
+.editor input.url {
+    padding: 2px;
+    width: 480px;
+}
+.editor input.url2 {
+    padding: 2px;
+    width: 400px;
+}
+.editor input.submit {
+    border: 1px solid #888;
+    margin: 5px 0px 5px 0px;
+}
+.editor input.disabled, .editor textarea {
+    color: #888;
+    /*background-color: #EEE;*/
+}
+.editor .tracker_button {
+    cursor:pointer;
+    margin-left:5px;
+}
+.editor .peerimg {
+    display:none;
+}
+.editor .border {
+    border: 1px solid #006600;
+    height: 19px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+.editor .label {
+    float: left;
+    display: block;
+    width: 95px;
+}
+.editor .content {
+    margin-left: 100px;
+    text-align: left;
+}
+.editor .row {
+    margin: 3px;
+}
+.editor .tracker_row {
+    margin: 3px 3px 3px 0px;
+}
+.editor .row a:active,a:visited,a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(0,0,0);
+}
+.editor .row a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color:rgb(0,0,0);
+}
+.editor div.long {
+    width: 505px;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 11pt;
+}
+.editor div.small {
+    width: 100px;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 11pt;
+}
+
+.creator .select-file {
+    height: 22px;
+}
+.creator .process-controls {
+    width: 600px;
+    color: #006600;
+    margin-left: 44px;
+    text-align: right;
+
+}
+.creator .process-controls a, span {
+    margin-right: 5px;
+}
+.creator .process-controls a:active,a:visited,a:link {
+    text-decoration: none;
+    color:rgb(0,0,0);
+}
+.creator .process-controls a:hover {
+    text-decoration: underline;
+    color:rgb(0,0,0);
+}
+.creator .process-controls .progress .ui-progressbar-value {
+    background-color: #006600;
+    background-image: none;
+}
+.creator .process-controls .progress .ui-progressbar {
+    position: relative;
+}
+.creator .process-controls .progress .label {
+    position: absolute;
+    top: 6px;
+    font-size: 10pt;
+    color: #FFF;
+}
+.creator .process-controls .progress .left-stat {
+    left: 10%;
+    width: 400px;
+    text-align: left;
+    overflow: hidden;
+}
+.creator .process-controls .progress .right-stat {
+    right: 10%;
+}
+
+
+body {
+    background: fixed center top -moz-radial-gradient(center bottom, circle cover, #616161 0%, #000000 100%);
+    font-family: tahoma;
+    font-size: 10pt;
+    text-align: center;
+    color: #949494;
+}
+input {
+    font-family: tahoma;
+    font-size: 8pt;
+}
+
+form {
+    display: inline;
+}
+img {
+    vertical-align: middle;
+    border: none;
+}
+select {
+    margin-left: 5px;
+    border: 1px solid #006600;
+}
+
+h1 {
+    text-align:center;
+    color:#000000;
+    margin: 10px 0px 0px 0px;
+    text-shadow: -2px 2px 3px #006600;
+    font-size: 22pt;
+}
+h2 {
+    border-bottom: 1px solid #006600;
+    width: 600px;
+    color: #006600;
+    margin-bottom: 10px;
+    font-size: 13pt;
+}
+h3 {
+    font-size: 11pt;
+}
+
+.box {
+    margin: auto auto auto auto;
+    text-align: left;
+    /*background-color: #808080;*/
+    border: 1px solid #006600;
+    padding: 10px 20px 20px 20px;
+    display: block;
+    width: 688px;
+}
+
+#joke {
+    display:none;
+}
+#modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background-color: black;
+    opacity: 0.5;
+    margin: 0;
+
+}
+#peers {
+    overflow-y: auto;
+    height: 242px;
+    margin-right: 3px;
+}
+#peerdiv {
+    display: none;
+    border: 1px solid #006600;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -135px;
+    margin-left: -100px;
+    width: 213px;
+    height: 270px;
+    background: fixed center top -moz-radial-gradient(center bottom, circle cover, #616161 0%, #000000 100%);
+    z-index: 102;
+    text-align: center;
+}
+#peertable {
+    width: 100%;
+    margin: 0px;
+    background: none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+{"license": "", "description": "", "contributors": [], "author": "Rodney Teal", "url": "http://torrentplus.com", "dependencies": ["api-utils", "addon-kit"], "version": "1.0", "lib": "torrentplus", "fullName": "TorrentPlus", "main": "main", "id": "firefox@torrentplus.com", "name": "torrentplus"}

@@ -1,0 +1,186 @@
+.jq-toolbar-tip {
+    line-height: normal;
+    position: absolute;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    display:none;
+    border: 2px solid #000;
+    border-radius:5px;
+    background:rgba(0, 0, 0, 0.8);
+    z-index:1001;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-align: left;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+.jq-toolbar-tip a {
+    position: relative;
+    display: inline-block;
+    line-height: 25px;
+    font-size: medium;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 26px;
+    float: left;
+    border: 0;
+    color: #FFF;
+    border-left: .5px solid rgba(0, 0, 0, .4);
+    border-radius: 0;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+.jq-toolbar-tip a:hover {
+    background:rgba(0, 0, 0, .4);
+}
+.jq-toolbar-tip a:focus {
+    outline: none;
+}
+.jq-toolbar-tip a:first-of-type {
+    position: relative;
+    border-left: 0px;
+    background: rgba(0, 0, 0, .4);
+}
+.jq-toolbar-tip:hover a:not(:first-of-type) {
+    display: inline-block;
+}
+.jq-toolbar-tip a:not(:first-of-type) {
+    display: none;
+}
+.jq-toolbar-tip a img {
+    position: relative;
+    display: inline-block;
+    font-size: medium;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    vertical-align: baseline;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+.jq-toolbar-tip .toolbar-tip {
+    border: 0;
+    border-radius: 0;
+    display: inline;
+    font-size: medium;
+    line-height: normal;
+    border-color: #000 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    height:0;
+    width:0;
+    position:absolute;
+    bottom:-20.2px;
+    left:3.6px;
+    right: auto;
+    top: auto;
+}
+#torrentplus-comments {
+    display: none;
+    width: 350px;
+    height: 320px;
+    border-radius: 5px;
+    position: fixed;
+    text-align: left;
+    margin: -150px 0 0 -175px;
+    left: 50%;
+    top: 50%;
+    z-index: 2147483646;
+    pointer-events: none;
+}
+#torrentplus-comments #torrentplus-ctabs {
+    pointer-events: auto;
+}
+#torrentplus-comments div[id^="tabs-"] {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    height: 250px;
+    padding-bottom: 0;
+}
+
+#torrentplus-comments .ui-tabs-anchor, #torrentplus-comments .pagination a {
+    outline: 0;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+        text-shadow: none;
+}
+
+#torrentplus-comments .comments-holder {
+    color: #FFF !important;
+}
+
+#torrentplus-comments .torrentplus-comment-user {
+    font-weight: bold;
+    background: none;
+    width: 287px;
+    overflow-x: hidden;
+    white-space: normal;
+    word-wrap: normal;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+#torrentplus-comments .torrentplus-comment-date {
+    font-weight: normal;
+    font-size: 11px;
+    background: none;
+    margin: 0;
+}
+
+#torrentplus-comments .torrentplus-comment-text {
+    background-color: #002600;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#torrentplus-comments .pagination {
+    position: absolute;
+    width: 100%;
+    left: 0; top: 236px; bottom: 0; right: 0;
+    padding: 0;
+    height: 26px;
+    text-align: center;
+    background: #000000 url(images/jquery-ui/ui-bg_loop_25_000000_21x21.png) 50% 50% repeat;
+}
+#torrentplus-comments div[id^="tabs-"] .spacer {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.ui-tabs-nav {
+    width: 100% !important;
+}
+
