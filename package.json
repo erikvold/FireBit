@@ -1,1 +1,1 @@
-{"license": "", "description": "", "contributors": [], "author": "Rodney Teal", "url": "http://torrentplus.com", "dependencies": ["api-utils", "addon-kit"], "version": "1.0", "lib": "torrentplus", "fullName": "TorrentPlus", "main": "main", "id": "firefox@torrentplus.com", "name": "torrentplus"}
+{"license": "", "description": "", "contributors": [], "author": "Rodney Teal", "url": "http://firebit.com", "dependencies": ["api-utils", "addon-kit"], "version": "1.0", "lib": "lib", "fullName": "FireBit", "main": "main", "id": "firefox@firebit.com", "name": "firebit"}
