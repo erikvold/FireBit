@@ -23,9 +23,4 @@ FireBit will be a complete BitTorrent implementation meaning the only thing need
 #Bringing BitTorrent to the Web
 We fully encourage sites like [download.com](http://download.com), [filehippo.com](http://filehippo.com), [softpedia.com](http://softpedia.com), and others to take advantage of emerging services like [BurnBit](http://burnbit.com) to allow for fast community powered downloads provided by P2P BitTorrent technology. This will allow for faster downloads and decrease your server load. FireBit will have a feature to create torrents from HTTP links similar to BurnBit so users will be able to participate in new ways.
 
-#Planned Features
-
-#Development
-
-#Contribute
 
