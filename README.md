@@ -35,7 +35,7 @@ We fully encourage sites like [download.com](http://download.com), [filehippo.co
 [BitTorrent Surf](http://labs.bittorrent.com/experiments/surf.html) has brought the torrent downloading feature to a few major browsers in its Beta form but requires multiple extensions and a browser restart to complete the installation. Its download UI looks cool but functionality wise theres stuff missing. BitTorrent is headed in the right direction but a little competition will only help the community. FireBit will *always* be unrestrictively free to the community. If BitTorrent throws a plus on the end of their surf title to demand payment like they've done with uTorrent then we'll gladly take any users they've got ;).
 
 #Development
-FireBit's user interfaces utilizes JQuery and JQuery UI and are not considered stable at this time. UIs aren't the current priority as BitTorrent and other features are being implemented. Most libraries are under construction but an operational version is expected to be available here in a reasonable time frame. So stay tuned.
+FireBit's user interfaces utilize JQuery and JQuery UI and are not considered stable at this time. UIs aren't the current priority as BitTorrent and other features are being implemented. Most libraries are under construction but an operational version is expected to be available here in a reasonable time frame. So stay tuned.
 
 ##How can you contribute?
 Join the [IRC channel](irc://irc.mozilla.org/firebit) / ([mibbit](http://mibbit.com/?url=irc%3A%2F%2Firc.mozilla.org%2Ffirebit)) and just ask.
